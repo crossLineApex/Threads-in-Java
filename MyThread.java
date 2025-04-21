@@ -19,5 +19,8 @@ public class MyThread extends Thread{
         MyThread t1 = new MyThread();
         t1.start();
         System.out.println("End Prog ...");
+        // What do you think is the o/p here ?
+        // Why End Prog... is the first statement which is printed ?
+        // How would You ensure that End Prog... is printed at the end ?
     }
 }
